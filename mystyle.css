@@ -16,17 +16,69 @@ p{
     line-height: 1.5;
     font-size: 14px;
 }
-main{
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+h3{
+    margin-top: 20px;
+}
+
+/* Utilities */
+.container{
     width: 90%;
     margin: 20px  auto;
 }
-/* Utilities */
-
+.text-green{
+    color: green;
+}
 /* Header */
-header{
+.header-init{
     background-image: url(./img/header.jpg);
     background-size: cover;
     text-align: center;
     color: white;
     height: 300px;
+    padding: 20px;
+}
+.flex-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Section - house and penthouses */
+.houses-section{
+    margin-top: 30px;
+}
+.flex-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.house-item{
+    background-color:#f0f0f0;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border: 1px solid gray;
+}
+.house-item-img{
+
+}
+.house-item-text{
+    padding: 20px;
+}
+.btn-details{
+    display: block;
+    background-color: rgb(223, 146, 3);
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.flex-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px 50px;
 }

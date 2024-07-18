@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-    <header>
+    <header class="header-init">
         <h1>RealEstate</h1>
         <nav>
             <a href="about.html">About</a>
@@ -16,27 +16,108 @@
         </nav>
         <p>We sell luxury houses, condominius, and penthouses</p>
     </header>
-    <main>
-        <h2>More About Us</h2>
-        <div>
-            <img src="./img/icon1.svg" alt="">
-            <h3>Security</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aut accusantium? Ipsa odit voluptas magnam molestias sequi aliquam provident. Labore a nesciunt quas sed. Harum sunt maiores repellendus consequuntur reprehenderit!</p>
-        </div>
-        <div>
-            <img src="./img/icon2.svg" alt="">
-            <h3>Prices</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ut maxime earum aliquam nobis, vero quaerat velit nesciunt optio ex natus deleniti, atque numquam reprehenderit cupiditate perferendis beatae distinctio commodi.</p>
-        </div>
-        <div>
-            <img src="./img/icon3.svg" alt="">
-            <h3>Time</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum aut suscipit alias molestias. Culpa dignissimos at, officia molestias sit consequatur ipsum dolor eligendi et quidem explicabo laboriosam rerum voluptates?</p>
-        </div>
-    </main>
-    <section>
-
-    </section>
+    <div class="container">
+        <main>
+            <h2>More About Us</h2>
+            <div class="flex-box">
+                <div class="flex-main">
+                    <img src="./img/icon1.svg" alt="">
+                    <h3>Security</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aut accusantium? Ipsa odit voluptas magnam molestias sequi aliquam provident. Labore a nesciunt quas sed. Harum sunt maiores repellendus consequuntur reprehenderit!</p>
+                </div>
+                <div class="flex-main">
+                    <img src="./img/icon2.svg" alt="">
+                    <h3>Prices</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ut maxime earum aliquam nobis, vero quaerat velit nesciunt optio ex natus deleniti, atque numquam reprehenderit cupiditate perferendis beatae distinctio commodi.</p>
+                </div>
+                <div class="flex-main">
+                    <img src="./img/icon3.svg" alt="">
+                    <h3>Time</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum aut suscipit alias molestias. Culpa dignissimos at, officia molestias sit consequatur ipsum dolor eligendi et quidem explicabo laboriosam rerum voluptates?</p>
+                </div>
+            </div>
+        </main>
+        <section class="houses-section">
+            <h2>Houses and Penthouses</h2>
+            <div class="flex-section">
+                <div class="house-item">
+                    <div class="house-item-img">
+                        <img src="./img/announcement1.jpg" alt="">
+                    </div>
+                    <div class="house-item-text">
+                        <h2>Luxury House On The Lake</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quisquam unde veritatis numquam natus eligendi accusamus ratione minima ea blanditiis, necessitatibus atque enim ex eius voluptatem, voluptatibus vero totam ad?</p>
+                        <p><span class="text-green">$3,000,000</p>
+                        <ul class="flex-icons">
+                            <li class="icons">
+                                <img src="./img/icon_wc.svg" alt="">
+                                <span class="text-icon">3</span>
+                            </li>
+                            <li>
+                                <img src="./img/icon_room.svg" alt="">
+                                <span class="text-icon">4</span>
+                            </li>
+                            <li>
+                                <img src="./img/icon_parking.svg" alt="">
+                                <span class="text-icon">3</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn-details">See Details</a>
+                </div>
+                <div class="house-item">
+                    <div class="house-item-img">
+                        <img src="./img/announcement2.jpg" alt="">
+                    </div>
+                    <div class="house-item-text">
+                        <h2>Luxury House</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quisquam unde veritatis numquam natus eligendi accusamus ratione minima ea blanditiis, necessitatibus atque enim ex eius voluptatem, voluptatibus vero totam ad?</p>
+                        <p><span class="text-green">$3,000,000</p>
+                        <ul class="flex-icons">
+                            <li class="icons">
+                                <img src="./img/icon_wc.svg" alt="">
+                                <span class="text-icon">3</span>
+                            </li>
+                            <li>
+                                <img src="./img/icon_room.svg" alt="">
+                                <span class="text-icon">4</span>
+                            </li>
+                            <li>
+                                <img src="./img/icon_parking.svg" alt="">
+                                <span class="text-icon">3</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn-details">See Details</a>
+                </div>
+                <div class="house-item">
+                    <div class="house-item-img">
+                        <img src="./img/announcement3.jpg" alt="">
+                    </div>
+                    <div class="house-item-text">
+                        <h2>Luxury With A Pool</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quisquam unde veritatis numquam natus eligendi accusamus ratione minima ea blanditiis, necessitatibus atque enim ex eius voluptatem, voluptatibus vero totam ad?</p>
+                        <p><span class="text-green">$3,000,000</span></p>
+                        <ul class="flex-icons">
+                            <li class="icons">
+                                <img src="./img/icon_wc.svg" alt="">
+                                <span class="text-icon">3</span>
+                            </li>
+                            <li>
+                                <img src="./img/icon_room.svg" alt="">
+                                <span class="text-icon">4</span>
+                            </li>
+                            <li>
+                                <img src="./img/icon_parking.svg" alt="">
+                                <span class="text-icon">3</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn-details">See Details</a>
+                </div>
+            </div>
+        </section>
+    </div>
     <footer>
 
     </footer>
