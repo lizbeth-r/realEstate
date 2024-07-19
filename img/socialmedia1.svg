@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 78 78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M39,2c20.4,0,37,16.6,37,37s-16.6,37-37,37S2,59.5,2,39,18.6,2,39,2M39,0C17.5,0,0,17.5,0,39s17.5,39,39,39,39-17.5,39-39S60.5,0,39,0h0Z"/>
+  <path class="cls-1" d="M45.9,22.9h5.7v-9.3h-5.7c-7.3,0-13.3,6-13.3,13.3v5.8h-6.1v8.6h6.1v23.1h9.3v-23.1h9.3v-8.6h-9.3v-5.8c0-2.2,1.8-4,4-4Z"/>
+</svg>
